@@ -801,7 +801,7 @@ if (typeof Object.create !== "function") {
                                   "; transform:"         + translate3D;
             regex = /translate3d\(0px, 0px, 0px\)/g;
             asSupport = tempElem.style.cssText.match(regex);
-            support3d = (Modernizr.csstransforms3d);
+            support3d = (asSupport !== null && asSupport.length > 0);
 
             isTouch = "ontouchstart" in window || window.navigator.msMaxTouchPoints;
 
