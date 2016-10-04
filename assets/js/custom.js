@@ -2,16 +2,9 @@
 /*global $, jQuery, Modernizr, google, _gat*/
 /*jshint strict: true */
 
-
-/*************** GOOGLE ANALYTICS ***********/
-
 /*************** REPLACE WITH YOUR OWN UA NUMBER ***********/
 window.onload = function () { "use strict"; gaSSDSLoad("XXXXX"); }; //load after page onload
 /*************** REPLACE WITH YOUR OWN UA NUMBER ***********/
-
-
-
-
 
 var isMobile = false;
 var isDesktop = false;
@@ -36,7 +29,10 @@ $(window).on("load resize",function(e){
 			isDesktop = true;
 		}
         toTop(isMobile);
-    });
+
+        $('#superSizedSlider').height($(window).height());
+        
+});
 
 //RESIZE EVENTS
 $(window).resize(function () { 
@@ -676,85 +672,47 @@ $(document).ready(function() {
 
 
 
+
 /*
 |--------------------------------------------------------------------------
-| SHARRRE
+| SHARE
 |--------------------------------------------------------------------------
 */
-if($('#shareme-classic').length){
+if($('#shareme').length  || $('#sharemeBtn').length){
 
-    $('#shareme-classic').sharrre({
+		var params = {
+			url: ( $('#shareme, #sharemeBtn').data('url') != '' ) ? $('#shareme').data('url') : window.location.href , 
+			title: $('#shareme, #sharemeBtn').data('title'),
+			desc: $('#shareme, #sharemeBtn').data('desc'),
+			via: 'LittleNeko1',
+			hashtags: 'premium template, awesome web design'
+		},
 
-        share: {
-            googlePlus: true,
-            facebook: true,
-            twitter: true,
-            linkedin: true
-        },
+		links = SocialShare.generateSocialUrls(params),
+		$target = $('#shareme,  #sharemeBtn');
+		
+		$target.html(''); //clear!
+		
+		var $activenetwork = ($target.data('network') != undefined && $target.data('network') != '') ? $target.data('network').split(',') : '',
+		$customlabel = ($target.data('label') != undefined && $target.data('label') != '') ? $target.data('label') : '',
+		$btnsize = ($target.data('size') != undefined && $target.data('size') != '') ? $target.data('size') : '';
+		
 
-        buttons: {
-            googlePlus: {size: 'tall', annotation:'bubble'},
-            facebook: {layout: 'box_count'},
-            twitter: {count: 'vertical'},
-            linkedin: {counter: 'top'}
-        },
 
-        enableHover: false,
-        enableCounter: false,
-        enableTracking: true,
-      //url:'document.location.href'
-  });
-} 
+		for (var i = 0; i < links.length; i++) {
+			var link = links[i];
+			if( $activenetwork != '' && jQuery.inArray( link.class, $activenetwork ) !== -1 ){
+				
+				$target.append('<a class="neko-share-btn btn ' + link.class + ' '+$btnsize+'" target="_blank" href="' + link.url + '" title="' + link.name + '"><i class="'+link.icon+'" style="position"></i> '+$customlabel+'</a>');
+			}else if( $activenetwork == '' ){
+				$target.append('<a class="neko-share-btn btn ' + link.class + ' '+$btnsize+'" target="_blank" href="' + link.url + '" title="' + link.name + '"><i class="'+link.icon+'" style="position"></i> '+$customlabel+'</a>');	
+			}
 
-if($('#shareme').length){
+		}
+		
+		$target.find('a').on( 'click', SocialShare.doPopup );
 
-    $('#shareme').sharrre({
-
-        share: {
-            twitter: true,
-            facebook: true,
-            googlePlus: true
-        },
-        template: '<div class="box"><h4>Share this:</h4><a href="#" class="facebook"><i class="icon-facebook-1"></i></a><a href="#" class="twitter"><i class="icon-twitter-bird"></i></a><a href="#" class="googleplus"><i class="icon-gplus-1"></i></a></div>',
-        enableHover: false,
-        enableTracking: true,
-        render: function(api, options){
-          $(api.element).on('click', '.twitter', function() {
-            api.openPopup('twitter');
-        });
-          $(api.element).on('click', '.facebook', function() {
-            api.openPopup('facebook');
-        });
-          $(api.element).on('click', '.googleplus', function() {
-            api.openPopup('googlePlus');
-        });
-      }
-  });
-} 
-
-if($('#sharemeBtn').length){
-
-    $('#sharemeBtn').sharrre({
-
-        share: {
-            twitter: true,
-            facebook: true
-        },
-        template: '<div class="box"><a href="#" class="btn btn-lg btnFacebook"><i class="icon-facebook-1"></i>Share me</a><a href="#" class="btn btn-lg btnTwitter"><i class="icon-twitter-bird"></i>Share me</a></div>',
-        enableHover: false,
-        enableTracking: true,
-        render: function(api, options){
-          $(api.element).on('click', '.btnTwitter', function() {
-            api.openPopup('twitter');
-        });
-          $(api.element).on('click', '.btnFacebook', function() {
-            api.openPopup('facebook');
-        });
-          
-      }
-  });
-} 
-
+}
 
 
 /*
@@ -1365,13 +1323,22 @@ function appendBootstrap() {
 
 function initialize(id) {
 	"use strict";
-	var image = '/wp-content/themes/enzoculiolo1.0/assets/images/icon-map.png';
+	var image = 'images/icon-map.png';
 
-	var overlayTitle = 'Headquarters';
+	var overlayTitle = 'Agencies';
 
 	var locations = [
         //point number 1
-        ['The Headquarters', 'Destin, FL', 30.3884, -86.501]  
+        ['Madison Square Garden', '4 Pennsylvania Plaza, New York, NY'],
+
+        //point number 2
+        ['Best town ever', 'Santa Cruz', 36.986021, -122.02216399999998],
+
+        //point number 3 
+        ['Located in the Midwestern United States', 'Kansas'],
+
+        //point number 4
+        ['I\'ll definitly be there one day', 'Chicago', 41.8781136, -87.62979819999998] 
         ];
 
         /*** DON'T CHANGE ANYTHING PASSED THIS LINE ***/
@@ -1389,125 +1356,125 @@ function initialize(id) {
         	scaleControl:false,
         	zoom: 14,
         	styles:[
-        	// {
-        	// 	"featureType": "water",
-        	// 	"stylers": [
-        	// 	{
-        	// 		"color": "#FEECEC"
-        	// 	},
-        	// 	]
-        	// },
-        	// {
-        	// 	"featureType": "road",
-        	// 	"elementType": "geometry.fill",
-        	// 	"stylers": [
-        	// 	{
-        	// 		"color": "#9D0A0E"
-        	// 	},
-        	// 	]
-        	// },
-        	// {
-        	// 	"featureType": "road",
-        	// 	"elementType": "geometry.stroke",
-        	// 	"stylers": [
-        	// 	{
-        	// 		"color": "#8D090D"
-        	// 	},
-        	// 	{
-        	// 		"lightness": 54
-        	// 	}
-        	// 	]
-        	// },
-        	// {
-        	// 	"featureType": "landscape.man_made",
-        	// 	"elementType": "geometry.fill",
-        	// 	"stylers": [
-        	// 	{
-        	// 		"color": "#FBBCBE"
-        	// 	}
-        	// 	]
-        	// },
-        	// {
-        	// 	"featureType": "poi.park",
-        	// 	"elementType": "geometry.fill",
-        	// 	"stylers": [
-        	// 	{
-        	// 		"color": "#F22C32"
-        	// 	}
-        	// 	]
-        	// },
-        	// {
-        	// 	"featureType": "road",
-        	// 	"elementType": "labels.text.fill",
-        	// 	"stylers": [
-        	// 	{
-        	// 		"color": "#767676"
-        	// 	}
-        	// 	]
-        	// },
-        	// {
-        	// 	"featureType": "road",
-        	// 	"elementType": "labels.text.stroke",
-        	// 	"stylers": [
-        	// 	{
-        	// 		"color": "#ffffff"
-        	// 	}
-        	// 	]
-        	// },
-        	// {
-        	// 	"featureType": "road.highway",
-        	// 	"elementType": "geometry.fill",
-        	// 	"stylers": [
-        	// 	{
-        	// 		"color": "#BD0C11"
-        	// 	}
-        	// 	]
-        	// },
+        	{
+        		"featureType": "water",
+        		"stylers": [
+        		{
+        			"color": "#f7f7f7"
+        		},
+        		]
+        	},
+        	{
+        		"featureType": "road",
+        		"elementType": "geometry.fill",
+        		"stylers": [
+        		{
+        			"color": "#FCFFF5"
+        		},
+        		]
+        	},
+        	{
+        		"featureType": "road",
+        		"elementType": "geometry.stroke",
+        		"stylers": [
+        		{
+        			"color": "#808080"
+        		},
+        		{
+        			"lightness": 54
+        		}
+        		]
+        	},
+        	{
+        		"featureType": "landscape.man_made",
+        		"elementType": "geometry.fill",
+        		"stylers": [
+        		{
+        			"color": "#dde1d4"
+        		}
+        		]
+        	},
+        	{
+        		"featureType": "poi.park",
+        		"elementType": "geometry.fill",
+        		"stylers": [
+        		{
+        			"color": "#73AB7D"
+        		}
+        		]
+        	},
+        	{
+        		"featureType": "road",
+        		"elementType": "labels.text.fill",
+        		"stylers": [
+        		{
+        			"color": "#767676"
+        		}
+        		]
+        	},
+        	{
+        		"featureType": "road",
+        		"elementType": "labels.text.stroke",
+        		"stylers": [
+        		{
+        			"color": "#ffffff"
+        		}
+        		]
+        	},
+        	{
+        		"featureType": "road.highway",
+        		"elementType": "geometry.fill",
+        		"stylers": [
+        		{
+        			"color": "#7e7341"
+        		}
+        		]
+        	},
 
-        	// {
-        	// 	"featureType": "landscape.natural",
-        	// 	"elementType": "geometry.fill",
-        	// 	"stylers": [
-        	// 	{
-        	// 		"visibility": "on"
-        	// 	},
-        	// 	{
-        	// 		"color": "#fccccd"
-        	// 	}
-        	// 	]
-        	// },
-        	// {
-        	// 	"featureType": "poi.park",
-        	// 	"stylers": [
-        	// 	{
-        	// 		"visibility": "on"
-        	// 	}
-        	// 	]
-        	// },
-        	// {
-        	// 	"featureType": "poi.sports_complex",
-        	// 	"stylers": [
-        	// 	{
-        	// 		"visibility": "on"
-        	// 	}
-        	// 	]
-        	// },
-        	// {
-        	// 	"featureType": "poi.medical",
-        	// 	"stylers": [
-        	// 	{
-        	// 		"visibility": "on"
-        	// 	}
-        	// 	]
-        	// },
-        	// {
-        	// 	"featureType": "poi.business",
-        	// 	"stylers": [
-        	// 	{
-        	// 		"visibility": "simplified"
-        	// 	}
-        	// 	]
-        	// }
+        	{
+        		"featureType": "landscape.natural",
+        		"elementType": "geometry.fill",
+        		"stylers": [
+        		{
+        			"visibility": "on"
+        		},
+        		{
+        			"color": "#dee6e6"
+        		}
+        		]
+        	},
+        	{
+        		"featureType": "poi.park",
+        		"stylers": [
+        		{
+        			"visibility": "on"
+        		}
+        		]
+        	},
+        	{
+        		"featureType": "poi.sports_complex",
+        		"stylers": [
+        		{
+        			"visibility": "on"
+        		}
+        		]
+        	},
+        	{
+        		"featureType": "poi.medical",
+        		"stylers": [
+        		{
+        			"visibility": "on"
+        		}
+        		]
+        	},
+        	{
+        		"featureType": "poi.business",
+        		"stylers": [
+        		{
+        			"visibility": "simplified"
+        		}
+        		]
+        	}
         	]
 
         });
@@ -1595,13 +1562,13 @@ for (i = 0; i < locations.length; i++) {
 
 function initializeSatellite(id) {
     "use strict";
-    var image = '/wp-content/themes/enzoculiolo1.0/assets/images/icon-map.png';
+    var image = 'images/icon-map.png';
 
-    var overlayTitle = 'Headquarters';
+    var overlayTitle = 'Agencies';
 
     var locations = [
         //point number 1
-        ['The Headquarters', 'Destin, FL', 30.3884, -86.501] 
+        ['Best town ever', 'Santa Cruz', 36.986021, -122.02216399999998]
         ];
 
         /*** DON'T CHANGE ANYTHING PASSED THIS LINE ***/
@@ -1740,7 +1707,6 @@ jQuery(function($){
 	"use strict";
 	if($('#superSizedSlider').length){
 
-		$('#superSizedSlider').height($(window).height());
 
 		$.supersized({
 
