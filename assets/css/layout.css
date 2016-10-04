@@ -1083,7 +1083,7 @@ a.btnRight {
 }
 
 @media(max-width:768px){
-	.bgMask {
+	.neko-data-owl .bgMask {
 		opacity: 0 !important;
 	}
 }
@@ -1957,6 +1957,7 @@ a#nextslide:hover,a#prevslide:hover {
 	bottom:0px;
 	left:0;
 	width:100%;
+	z-index:1000;
 }
 @media(min-width:769px) {
 	.owl-animated .caption-wrapper {
@@ -1981,13 +1982,13 @@ a#nextslide:hover,a#prevslide:hover {
 	}
 }
 @media(min-width:1025px) {
-	.owl-animated .caption.right {
+	html:not(.ie9) .owl-animated .caption.right {
 		height:100%;
 		width:50%;
 		left:auto;
 		right:0;
 	}
-	.owl-animated .caption.left {
+	html:not(.ie9) .owl-animated .caption.left {
 		height:100%;
 		width:50%;
 		left:0;
@@ -3023,33 +3024,44 @@ p.credits {
 }
 /*** end responsive video ***/
 
-/*** share plugin ***/
-.sharrre .button {
-	float: left;
-	width: 60px;
+/**** neko share system ****/
+.neko-share-btn:not(:last-child){
+	margin-right:5px;
 }
-#shareme h4 {margin-top: 22px; font-size: 16px;}
-#shareme a {
-	display:block;
-	text-align: center;
-	width: 44px;
-	height: 44px;
-	padding-top: 10px;
-	float:left;
-	margin-right: 5px;
-}
-#shareme i {color:#fff;}
-#shareme .facebook {background:#3b5998;}
-#shareme .twitter {background:#55ACEE;}
-#shareme .googleplus {background:#d34836;}
 
-/*** Buttons **/
-#sharemeBtn a {margin:0 11px 11px 11px; }
-#sharemeBtn a, #sharemeBtn i {color:#fff;}
-#sharemeBtn .btnFacebook {background:#3b5998;}
-#sharemeBtn .btnTwitter {background:#55ACEE;}
-#sharemeBtn a.btnFacebook:hover {border-color:#3b5998;}
-#sharemeBtn a.btnTwitter:hover {border-color:#55ACEE;}
+.neko-share-btn{
+	background-image: none;
+	border-radius:0;
+	border:none;
+	box-shadow: none !important;
+	padding: 4px 12px;
+}
+
+.neko-share-btn.facebook{
+	background-color: #4863ae;
+}
+
+.neko-share-btn.twitter{
+	background-color: #46c0fb;
+}
+
+.neko-share-btn.google{
+	background-color: #dd4b39;
+}
+
+.neko-share-btn.linkedin{
+	background-color: #01669c;
+}
+
+.neko-share-btn i{
+	color:white;
+	line-height: normal !important;
+	margin: 0;
+}
+.neko-share-btn i:before{
+	text-align:center;
+}
+/**** / neko share system ****/
 
 /*** MEDIA QUERIES ***/
 
