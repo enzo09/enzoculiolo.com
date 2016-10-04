@@ -2,7 +2,8 @@
 <!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
 <!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
 <!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!-->
+<!--[if IE 9 ]><html class="ie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 10)|!(IE)]><!-->
 <html lang="en">
 <!--<![endif]-->
 
@@ -26,6 +27,10 @@
 <!-- Favicon
     ================================================== -->
     <link rel="shortcut icon" href="/wp-content/themes/enzoculiolo1.0/assets/images/ec-favicon-red.ico">
+    <link rel="ec-favicon-red" href="/wp-content/themes/enzoculiolo1.0/assets/images/ec-favicon-red.png">
+    <link rel="ec-favicon-red" sizes="72x72" href="/wp-content/themes/enzoculiolo1.0/assets/images/ec-favicon-red-72x72.png">
+    <link rel="ec-favicon-red" sizes="114x114" href="/wp-content/themes/enzoculiolo1.0/assets/images/ec-favicon-red-114x114.png">
+    <link rel="ec-favicon-red" sizes="144x144" href="/wp-content/themes/enzoculiolo1.0/assets/images/ec-favicon-red-144x144.png">
 
 <!-- CSS
     ================================================== -->
@@ -35,6 +40,7 @@
     <link href='http://fonts.googleapis.com/css?family=Roboto:100,300,400' rel='stylesheet' type='text/css'>
     <!-- Plugin CSS -->
     <link rel="stylesheet" type="text/css" href="/wp-content/themes/enzoculiolo1.0/assets/js-plugin/animation-framework/animate.css" />
+    <link type="text/css" rel="stylesheet" href="/wp-content/themes/enzoculiolo1.0/assets/js-plugin/isotope/css/style.css">
     <!-- Pop Up -->
     <link rel="stylesheet" type="text/css" href="/wp-content/themes/enzoculiolo1.0/assets/js-plugin/magnific-popup/magnific-popup.css" />
     <!-- nekoAnim -->
