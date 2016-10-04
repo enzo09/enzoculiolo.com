@@ -37,7 +37,7 @@ get_header();
                     <p>
                         Enzo is an award-winning Graphics Designer with twelve years of professional experience in marketing and advertising with expertise in creative and art direction, graphics design, UI and UX design on website and mobile applications, web design, and app design. Enzo is also a Web Developer with expertise in using Wordpress, Bootstrap, PHP, JavaScript, JQuery, and CSS framework.<br><br>
                         Enzo is passionate about great design, hard work, and close attention to details.<br><br>
-                        Enzo is currently working as a Graphics Designer at <a href="http://www.actigraphcorp.com">ActiGraph, LLC</a>, in Pensacola, Florida. His areas of expertise include creative direction, art direction, image branding, tradeshows, advertising, collaterals, app design, software design, and website design and development.<br><br>
+                        Enzo is currently working as a Creative Manager at <a href="http://www.actigraphcorp.com">ActiGraph, LLC</a>, in Pensacola, Florida. His areas of expertise include creative direction, art direction, corporate branding, tradeshows, advertising, collaterals, app design, software design, and website design and development.<br><br>
                         Enzo has worked as an Art Director for award-winning publication <a href="http://www.lifesabeachllc.com/">Life's A Beach, LLC</a>, in Destin, Florida. His areas of expertise included art direction for magazine, advertising, collaterals, and website design and development.
                     </p>
                 </div>
@@ -92,19 +92,19 @@ get_header();
                     </div>
                     <h4>Marketing</h4>
                     <div class="progress">
-                        <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width: 95%;"> <span>95%</span> </div>
+                        <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;"> <span>100%</span> </div>
                     </div>
                     <h4>Branding</h4>
                     <div class="progress">
-                        <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width: 95%;"> <span>95%</span> </div>
+                        <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;"> <span>100%</span> </div>
                     </div>
                     <h4>Web Development</h4>
                     <div class="progress">
-                        <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width:85%;"> <span>85%</span> </div>
+                        <div class="progress-bar" role="progressbar" aria-valuenow="98" aria-valuemin="0" aria-valuemax="100" style="width:98%;"> <span>98%</span> </div>
                     </div>
                     <h4>User Interface/Experience</h4>
                     <div class="progress">
-                        <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;"> <span>90%</span> </div>
+                        <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width: 95%;"> <span>95%</span> </div>
                     </div>
                 </div>
             </div>
