@@ -1,3 +1,11 @@
+<?php
+/**
+ * Template Name: About Me Single
+ */
+
+the_post();
+?>
+
 <!DOCTYPE html>
 <!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
 <!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
@@ -564,7 +572,7 @@
                                         <!-- contact-->
 
         <!-- content -->
-        
+
         <!-- footer -->
         <footer id="footerWrapper" class="footer">
             <section id="mainFooter">
