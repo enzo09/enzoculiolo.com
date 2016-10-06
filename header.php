@@ -73,7 +73,7 @@
 
 </head>
 
-<body class="activateAppearAnimation">
+<body data-spy="scroll" data-target="#resMainMenu" data-offset="150" id="onePage" class="activateAppearAnimation">
 
 <!-- Primary Page Layout
     ================================================== -->
@@ -105,7 +105,7 @@
                                 <!-- social icons -->
 
                                 <!-- phone -->
-                                <span class="contactPhone"><i class="icon-mobile"></i>850.000.0209</span>
+                                <span class="contactPhone"><i class="icon-mobile"></i>850.850.0208</span>
                             </div>
                         </div>
                     </div>
