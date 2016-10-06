@@ -115,7 +115,7 @@ the_post();
                         <ul class="nav navbar-nav pull-right">
                             <li class="active"><a href="#homeFullScreen">Home</a></li>
                             <li><a href="#about">About Me</a></li>
-                            <li><a href="#skils">Skills</a></li>
+                            <li><a href="#skills">Skills</a></li>
                             <li><a href="#portfolio">Portfolio</a></li>
                             <li><a href="#services">Services</a></li>
                             <li><a href="#team">Our team</a></li>
