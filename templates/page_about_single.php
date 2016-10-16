@@ -117,8 +117,7 @@ the_post();
                             <li><a href="#about">About Me</a></li>
                             <li><a href="#portfolio">Portfolio</a></li>
                             <li><a href="#services">Services</a></li>
-                            <li><a href="#team">Our team</a></li>
-                            <li> <a href="#contactSlice">Contact</a> </li>
+                            <li> <a href="#contact">Contact</a> </li>
                         </ul>
                     </div>
                 </nav>
@@ -263,18 +262,18 @@ the_post();
 
         <section id="homePortfolio" class="imgHover clearfix portfolioMosaic mosaic5 mosaicMoreLink neko-hover-1 color0">
             <article>
-                <figure class="minimalBox"> <img alt="" src="images/portfolio/vign6.jpg" class="img-responsive">
+                <figure class="minimalBox"> <img alt="" src="/wp-content/themes/enzoculiolo1.0/assets/images/portfolio/vign6.jpg" class="img-responsive">
                     <figcaption>
                         <div class="pinInfo">
                             <h3>Full width image</h3>
                             <p class="hidden-xs">Lorem ipsum dolor sit amet</p>
                         </div>
-                        <div class="iconLinks"> <a href="portfolio-project-fullwidth-image.html" title="link"><i class="icon-picture"></i></a> <a href="images/portfolio/zoom6.jpg" class="image-link" title="Zoom"><i class="icon-search"></i></a> </div>
+                        <div class="iconLinks"> <a href="portfolio-project-fullwidth-image.html" title="link"><i class="icon-picture"></i></a> <a href="/wp-content/themes/enzoculiolo1.0/assets/images/portfolio/zoom6.jpg" class="image-link" title="Zoom"><i class="icon-search"></i></a> </div>
                     </figcaption>
                 </figure>
             </article>
             <article>
-                <figure class="minimalBox"> <img alt="" src="images/portfolio/vign8.jpg" class="img-responsive">
+                <figure class="minimalBox"> <img alt="" src="/wp-content/themes/enzoculiolo1.0/assets/images/portfolio/vign8.jpg" class="img-responsive">
                     <figcaption>
                         <div class="pinInfo">
                             <h3>Youtube Video</h3>
@@ -285,7 +284,7 @@ the_post();
                 </figure>
             </article>
             <article>
-                <figure class="minimalBox"> <img alt="" src="images/portfolio/vign2.jpg" class="img-responsive">
+                <figure class="minimalBox"> <img alt="" src="/wp-content/themes/enzoculiolo1.0/assets/images/portfolio/vign2.jpg" class="img-responsive">
                     <figcaption>
                         <div class="pinInfo">
                             <h3>Video Vimeo</h3>
@@ -296,73 +295,74 @@ the_post();
                 </figure>
             </article>
             <article>
-                <figure class="minimalBox"> <img alt="" src="images/portfolio/vign1.jpg" class="img-responsive">
+                <figure class="minimalBox"> <img alt="" src="/wp-content/themes/enzoculiolo1.0/assets/images/portfolio/vign1.jpg" class="img-responsive">
                     <figcaption>
                         <div class="pinInfo">
                             <h3>Gallery</h3>
                             <p class="hidden-xs">Lorem ipsum dolor sit amet</p>
                         </div>
-                        <div class="iconLinks"> <a href="portfolio-project-fullwidth-image.html" title="link"><i class="icon-camera"></i></a> <a href="images/portfolio/zoom3.jpg" data-gallery="images/portfolio/zoom1.jpg,images/portfolio/zoom2.jpg" class="image-link" title="Zoom"><i class="icon-search"></i></a> </div>
+                        <div class="iconLinks"> <a href="portfolio-project-fullwidth-image.html" title="link"><i class="icon-camera"></i></a> <a href="/wp-content/themes/enzoculiolo1.0/assets/images/portfolio/zoom3.jpg" data-gallery="/wp-content/themes/enzoculiolo1.0/assets/images/portfolio/zoom1.jpg,images/portfolio/zoom2.jpg" class="image-link" title="Zoom"><i class="icon-search"></i></a> </div>
                     </figcaption>
                 </figure>
             </article>
             <article>
-                <figure class="minimalBox"> <img alt="" src="images/portfolio/vign5.jpg" class="img-responsive">
+                <figure class="minimalBox"> <img alt="" src="/wp-content/themes/enzoculiolo1.0/assets/images/portfolio/vign5.jpg" class="img-responsive">
                     <figcaption>
                         <div class="pinInfo">
                             <h3>Photo</h3>
                             <p class="hidden-xs">Lorem ipsum dolor sit amet</p>
                         </div>
-                        <div class="iconLinks"> <a href="portfolio-project-fullwidth-image.html" title="link"><i class="icon-picture "></i></a> <a href="images/portfolio/zoom5.jpg" class="image-link" title="Zoom"><i class="icon-search"></i></a> </div>
+                        <div class="iconLinks"> <a href="portfolio-project-fullwidth-image.html" title="link"><i class="icon-picture "></i></a> <a href="/wp-content/themes/enzoculiolo1.0/assets/images/portfolio/zoom5.jpg" class="image-link" title="Zoom"><i class="icon-search"></i></a> </div>
                     </figcaption>
                 </figure>
             </article>
             <article>
-                <figure class="minimalBox"> <img alt="" src="images/portfolio/vign7.jpg" class="img-responsive">
+                <figure class="minimalBox"> <img alt="" src="/wp-content/themes/enzoculiolo1.0/assets/images/portfolio/vign7.jpg" class="img-responsive">
                     <figcaption>
                         <div class="pinInfo">
                             <h3>Photo</h3>
                             <p class="hidden-xs">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                         </div>
-                        <div class="iconLinks"> <a href="portfolio-project-fullwidth-image.html" title="link"><i class="icon-picture "></i></a> <a href="images/portfolio/zoom7.jpg" class="image-link" title="Zoom"><i class="icon-search"></i></a> </div>
+                        <div class="iconLinks"> <a href="portfolio-project-fullwidth-image.html" title="link"><i class="icon-picture "></i></a> <a href="/wp-content/themes/enzoculiolo1.0/assets/images/portfolio/zoom7.jpg" class="image-link" title="Zoom"><i class="icon-search"></i></a> </div>
                     </figcaption>
                 </figure>
             </article>
             <article>
-                <figure class="minimalBox"> <img alt="" src="images/portfolio/vign3.jpg" class="img-responsive">
+                <figure class="minimalBox"> <img alt="" src="/wp-content/themes/enzoculiolo1.0/assets/images/portfolio/vign3.jpg" class="img-responsive">
                     <figcaption>
                         <div class="pinInfo">
                             <h3>Photo</h3>
                             <p class="hidden-xs">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                         </div>
-                        <div class="iconLinks"> <a href="portfolio-project-fullwidth-image.html" title="link"><i class="icon-picture "></i></a> <a href="images/portfolio/zoom3.jpg" class="image-link" title="Zoom"><i class="icon-search"></i></a> </div>
+                        <div class="iconLinks"> <a href="portfolio-project-fullwidth-image.html" title="link"><i class="icon-picture "></i></a> <a href="/wp-content/themes/enzoculiolo1.0/assets/images/portfolio/zoom3.jpg" class="image-link" title="Zoom"><i class="icon-search"></i></a> </div>
                     </figcaption>
                 </figure>
             </article>
             <article>
-                <figure class="minimalBox"> <img alt="" src="images/portfolio/vign4.jpg" class="img-responsive">
+                <figure class="minimalBox"> <img alt="" src="/wp-content/themes/enzoculiolo1.0/assets/images/portfolio/vign4.jpg" class="img-responsive">
                     <figcaption>
                         <div class="pinInfo">
                             <h3>Photo</h3>
                             <p class="hidden-xs">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                         </div>
-                        <div class="iconLinks"> <a href="portfolio-project-fullwidth-image.html" title="link"><i class="icon-picture "></i></a> <a href="images/portfolio/zoom4.jpg" class="image-link" title="Zoom"><i class="icon-search"></i></a> </div>
+                        <div class="iconLinks"> <a href="portfolio-project-fullwidth-image.html" title="link"><i class="icon-picture "></i></a> <a href="/wp-content/themes/enzoculiolo1.0/assets/images/portfolio/zoom4.jpg" class="image-link" title="Zoom"><i class="icon-search"></i></a> </div>
                     </figcaption>
                 </figure>
             </article>
             <article>
-                <figure class="minimalBox"> <img alt="" src="images/portfolio/vign9.jpg" class="img-responsive">
+                <figure class="minimalBox"> <img alt="" src="/wp-content/themes/enzoculiolo1.0/assets/images/portfolio/vign9.jpg" class="img-responsive">
                     <figcaption>
                         <div class="pinInfo">
                             <h3>Photo</h3>
                             <p class="hidden-xs">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                         </div>
-                        <div class="iconLinks"> <a href="portfolio-project-fullwidth-image.html" title="link"><i class="icon-picture "></i></a> <a href="images/portfolio/zoom9.jpg" class="image-link" title="Zoom"><i class="icon-search"></i></a> </div>
+                        <div class="iconLinks"> <a href="portfolio-project-fullwidth-image.html" title="link"><i class="icon-picture "></i></a> <a href="/wp-content/themes/enzoculiolo1.0/assets/images/portfolio/zoom9.jpg" class="image-link" title="Zoom"><i class="icon-search"></i></a> </div>
                     </figcaption>
                 </figure>
             </article>
         </section>
         <!-- works -->
+
         <!-- services -->
         <section id="services" class="pb40 pt40">
             <div class="container">
@@ -451,126 +451,57 @@ the_post();
             </div>
         </section>
         <!-- / services -->
-        <!-- parallax -->
-        <section class="parallaxSection image-3">
-            <div class="maskParent">
-                <div class="bgMask"></div>
-                <div class="paralaxText container">
-                    <div class="col-md-12 text-center pt30 pb30">
-                        <h2> <i class="icon-star iconMedium iconRounded"></i>
-                            <br /> Design is not just what it looks like.
-                            <br />Design is how it works. </h2>
-                        </div>
+
+        <!-- contact -->
+        <section id="contact" class="pb40 pt40">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <h3>Let's Talk</h3>
+                        <p>I'd love to talk about your project. You can fill out the form or contact me directly:</p>
+                        <address>
+                            <p>
+                                <i class="icon-mail-alt"></i>&nbsp;<a href="mailto:enzo@enzoculiolo.com">enzo@enzoculiolo.com</a>
+                            </p>
+                        </address>
                     </div>
+                    <form method="post" action="/wp-content/themes/enzoculiolo1.0/assets/js-plugin/neko-contact-ajax-plugin/php/form-handler.php" id="contactfrm" role="form">
+                        <div class="col-sm-4">
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input type="text" class="form-control" name="name" id="name" placeholder="Enter name"  title="Please enter your name (at least 2 characters)"/>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" class="form-control" name="email" id="email" placeholder="Enter email" title="Please enter a valid email address"/>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Phone</label>
+                                <input name="phone" class="form-control required digits" type="tel" id="phone" size="30" value="" placeholder="Enter phone" title="Please enter a valid phone number (at least 10 characters)">
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="form-group">
+                                <label for="comments">Comments</label>
+                                <textarea name="comment" class="form-control" id="comments" cols="3" rows="5" placeholder="Enter your message…" title="Please enter your message (at least 10 characters)"></textarea>
+                            </div>
+                            <fieldset class="clearfix securityCheck">
+                                <h3>Security</h3>
+                                <div class="form-group">
+                                    <img src="/wp-content/themes/enzoculiolo1.0/assets/js-plugin/neko-contact-ajax-plugin/php/image.php" alt="Image verification"/>
+                                    <input class="required form-control"  id="verify" name="verify" type="text" >
+                                </div>
+                            </fieldset>
+                        </div>
+                        <div class="col-md-8 col-md-offset-4">
+                            <div class="result"></div>
+                            <button name="submit" type="submit" class="btn btn-lg" id="submit"> Submit</button>
+                        </div>
+                    </form>
                 </div>
-            </section>
-            <!-- / parallax -->
-            <!-- team -->
-            <section id="team" class="color0 pb40">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12 pt40 pb40 text-center">
-                            <h1>Meet our team</h1>
-                            <p class="subTitle"> The Duchess took her choice, and was gone in a moment. 'Let's go on with the game,'
-                                <br/> the Queen said to Alice; and Alice was too much frightened to say a word, but slowly followed her back to the croquet-ground. </p>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-sm-3" data-nekoanim="fadeInUp" data-nekodelay="0">
-                                <article>
-                                    <div><img src="images/team/team-corporate-1.jpg" alt="" class="img-responsive"></div>
-                                    <div class="boxContent text-center">
-                                        <h3>Janice Rand</h3>
-                                        <p>Executive Director</p>
-                                    </div>
-                                </article>
-                            </div>
-                            <div class="col-sm-3" data-nekoanim="fadeInUp" data-nekodelay="100">
-                                <article>
-                                    <div><img src="images/team/team-corporate-2.jpg" alt="" class="img-responsive"></div>
-                                    <div class="boxContent text-center">
-                                        <h3>Rick Deckard</h3>
-                                        <p>Salesman</p>
-                                    </div>
-                                </article>
-                            </div>
-                            <div class="col-sm-3" data-nekoanim="fadeInUp" data-nekodelay="200">
-                                <article>
-                                    <div><img src="images/team/team-corporate-3.jpg" alt="" class="img-responsive"></div>
-                                    <div class="boxContent text-center">
-                                        <h3>Christine Chapel</h3>
-                                        <p>Graphic designer</p>
-                                    </div>
-                                </article>
-                            </div>
-                            <div class="col-sm-3" data-nekoanim="fadeInUp" data-nekodelay="300">
-                                <article>
-                                    <div><img src="images/team/team-corporate-4.jpg" alt="" class="img-responsive"></div>
-                                    <div class="boxContent text-center">
-                                        <h3>Leon Kowalski</h3>
-                                        <p>Programmer</p>
-                                    </div>
-                                </article>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <!-- team -->
-
-                <!-- contact-->
-                <section id="contactSlice" class="color0">
-                    <div class="col-md-12 text-center pt30 pb30">
-                        <h1 class="noSubtitle">Contact us</h1>
-                    </div>
-                    <section class="pt30 pb30">
-                        <div class="container">
-                            <div id="mapWrapper" class="mb30"></div>
-                            <div class="row">
-                                <div class="col-sm-4">
-                                    <h4>Address:</h4>
-                                    <address> Himalaya Company
-                                        <br/> 77 Mass. Ave., E14/E15
-                                        <br/> Cambridge, MA 02139-4307 USA
-                                        <br/> </address>
-                                        <h4>Phone:</h4>
-                                        <address> 615.987.1234
-                                            <br/> </address>
-                                        </div>
-                                        <form method="post" action="js-plugin/neko-contact-ajax-plugin/php/form-handler.php" id="contactfrm" role="form">
-                                            <div class="col-sm-4">
-                                                <div class="form-group">
-                                                    <label for="name">Name</label>
-                                                    <input type="text" class="form-control" name="name" id="name" placeholder="Enter name" title="Please enter your name (at least 2 characters)" /> </div>
-                                                    <div class="form-group">
-                                                        <label for="email">Email</label>
-                                                        <input type="email" class="form-control" name="email" id="email" placeholder="Enter email" title="Please enter a valid email address" /> </div>
-                                                        <div class="form-group">
-                                                            <label for="phone">Phone</label>
-                                                            <input name="phone" class="form-control required digits" type="tel" id="phone" size="30" value="" placeholder="Enter email phone" title="Please enter a valid phone number (at least 10 characters)"> </div>
-                                                        </div>
-                                                        <div class="col-sm-4">
-                                                            <div class="form-group">
-                                                                <label for="comments">Comments</label>
-                                                                <textarea name="comment" class="form-control" id="comments" cols="3" rows="5" placeholder="Enter your message…" title="Please enter your message (at least 10 characters)"></textarea>
-                                                            </div>
-                                                            <fieldset class="clearfix securityCheck">
-                                                                <legend>Security</legend>
-                                                                <div class="form-group"> <img src="js-plugin/neko-contact-ajax-plugin/php/image.php" alt="Image verification" />
-                                                                    <input class="required " id="verify" name="verify" type="text"> </div>
-                                                                </fieldset>
-                                                            </div>
-                                                            <div class="col-md-8 col-md-offset-4">
-                                                                <div class="result"></div>
-                                                                <button name="submit" type="submit" class="btn btn-lg" id="submit"> Submit</button>
-                                                            </div>
-                                                        </form>
-                                                    </div>
-                                                </div>
-                                            </section>
-                                        </section>
-                                        <!-- contact-->
-
-        <!-- content -->
+            </div>
+        </section>
+        <!-- / contact -->
 
         <!-- footer -->
         <footer id="footerWrapper" class="footer">
