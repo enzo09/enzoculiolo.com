@@ -454,7 +454,7 @@ the_post();
         <!-- / services -->
 
         <!-- contact -->
-        <section id="contact" class="pb40 pt40">
+        <section id="contact" class="pt40 color4">
             <div class="container">
                 <div class="row">
                     <?php echo do_shortcode( '[contact-form-7 id="57" title="Contact form 1"]' ); ?>
