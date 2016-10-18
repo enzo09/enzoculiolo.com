@@ -30,7 +30,8 @@ get_header();
     <section class="pb40 pt40">
         <div class="container">
             <div class="row">
-                <div class="col-sm-4">
+                <?php the_content(); ?>
+                <!-- <div class="col-sm-4">
                     <h3>Let's Talk</h3>
                     <p>I'd love to talk about your project. You can fill out the form or contact me directly:</p>
                     <address>
@@ -71,7 +72,7 @@ get_header();
                         <div class="result"></div>
                         <button name="submit" type="submit" class="btn btn-lg" id="submit"> Submit</button>
                     </div>
-                </form>
+                </form> -->
             </div>
         </div>
     </section>

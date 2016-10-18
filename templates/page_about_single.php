@@ -66,6 +66,7 @@ the_post();
     <link type="text/css" rel="stylesheet" href="/wp-content/themes/enzoculiolo1.0/style.css">
     <!-- Scripts -->
     <script src="/wp-content/themes/enzoculiolo1.0/assets/js/modernizr-2.6.1.min.js"></script>
+    <script src='https://www.google.com/recaptcha/api.js'></script>
     <!-- Old IE Browser Scripts -->
     <!--[if lt IE 9]>
         <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -456,7 +457,8 @@ the_post();
         <section id="contact" class="pb40 pt40">
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-4">
+                    <?php echo do_shortcode( '[contact-form-7 id="57" title="Contact form 1"]' ); ?>
+                    <!-- <div class="col-sm-4">
                         <h3>Let's Talk</h3>
                         <p>I'd love to talk about your project. You can fill out the form or contact me directly:</p>
                         <address>
@@ -497,7 +499,7 @@ the_post();
                             <div class="result"></div>
                             <button name="submit" type="submit" class="btn btn-lg" id="submit"> Submit</button>
                         </div>
-                    </form>
+                    </form> -->
                 </div>
             </div>
         </section>

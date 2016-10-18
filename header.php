@@ -58,6 +58,7 @@
     <link type="text/css" rel="stylesheet" href="/wp-content/themes/enzoculiolo1.0/style.css">
     <!-- Scripts -->
     <script src="/wp-content/themes/enzoculiolo1.0/assets/js/modernizr-2.6.1.min.js"></script>
+    <script src='https://www.google.com/recaptcha/api.js'></script>
     <!-- Old IE Browser Scripts -->
     <!--[if lt IE 9]>
     	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
