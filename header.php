@@ -74,7 +74,7 @@
 
 </head>
 
-<body>
+<body class="header4">
 
 <!-- Primary Page Layout
     ================================================== -->
