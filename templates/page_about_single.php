@@ -116,7 +116,7 @@ the_post();
                         <!-- Main navigation -->
                         <ul class="nav navbar-nav pull-right">
                             <li class="active"><a href="#homeFullScreen">Home</a></li>
-                            <li><a href="#about">About Me</a></li>
+                            <li><a href="#about">About</a></li>
                             <li><a href="#work">Work</a></li>
                             <li><a href="#services">Services</a></li>
                             <li> <a href="#contact">Contact</a> </li>
