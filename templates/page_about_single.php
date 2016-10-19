@@ -59,6 +59,7 @@ the_post();
     <link rel="stylesheet" href="/wp-content/themes/enzoculiolo1.0/assets/js-plugin/owl.carousel/owl-carousel/owl.theme.css">
     <!-- Icon Fonts -->
     <link type="text/css" rel="stylesheet" href="/wp-content/themes/enzoculiolo1.0/assets/font-icons/custom-icons/css/custom-icons.css">
+    <link rel="stylesheet" href="//use.fontawesome.com/9b950c5921.css">
     <!-- Custom CSS -->
     <link type="text/css" rel="stylesheet" href="/wp-content/themes/enzoculiolo1.0/assets/css/layout.css">
     <link type="text/css" id="colors" rel="stylesheet" href="/wp-content/themes/enzoculiolo1.0/assets/css/colors.css">
