@@ -1029,14 +1029,14 @@ label.error {
 
 /* contact form 7 */
 div.wpcf7-validation-errors {
-    border: none; 
+    border: 0px solid #9d0a0e; 
     background: #9d0a0e;
     color: #fff;
 }
 
 div.wpcf7-response-output {
-    margin: none; 
-    padding: 2em 2em;
+    margin: 0em !important; 
+    padding: 2em 2em !important;
 }
 
 span.wpcf7-not-valid-tip {
