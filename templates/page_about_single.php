@@ -371,7 +371,7 @@ the_post();
                 <div class="row">
                     <div class="col-md-12 text-center mb40">
                         <h1>Services</h1>
-                        <h2 class="subTitle" style="text-transform: normal;">Crafting brands from infancy through maturity!</h2>
+                        <h2 class="subTitle" style="text-transform: none;">Crafting brands from infancy through maturity!</h2>
                     </div>
                 </div>
                 <div class="row">
