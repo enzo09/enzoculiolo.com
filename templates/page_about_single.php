@@ -402,6 +402,8 @@ the_post();
                             </a>
                         </article>
                     </div>
+                </div>
+                <div class="row">
                     <div class="col-sm-4">
                         <article class="boxFeatured">
                             <a href="#">
@@ -411,8 +413,6 @@ the_post();
                             </a>
                         </article>
                     </div>
-                </div>
-                <div class="row">
                     <div class="col-sm-4">
                         <article style="opacity: 1;" class="boxFeatured">
                             <a href="#">
