@@ -17,6 +17,7 @@
                                 <h3>Contact</h3>
                                 <address>
                                     <p>
+                                        <i class="icon-phone"></i>&nbsp;850.687.0208<br>
                                         <i class="icon-mail-alt"></i>&nbsp;<a href="mailto:enzo@enzoculiolo.com">enzo@enzoculiolo.com</a>
                                     </p>
                                 </address>
@@ -39,7 +40,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12">
-                            <p>&copy;<?php echo date('Y'); ?> Enzo A. Culiolo. All rights reserved.</p>
+                            <p>&copy; <?php echo date('Y'); ?> Enzo A. Culiolo. All rights reserved.</p>
                         </div>
                     </div>
                 </div>
