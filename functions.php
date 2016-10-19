@@ -27,6 +27,24 @@
 
 
 // ========================================
+// Removes extra <p></p> tags to the content.
+// http://codex.wordpress.org/Function_Reference/wpautop
+// ========================================
+remove_filter( 'the_content', 'wpautop' );
+remove_filter( 'the_excerpt', 'wpautop' );
+
+
+// ========================================
+// Removes emoji code from headers.
+// https://wordpress.org/support/topic/removing-emoji-code-from-header
+// ========================================
+remove_action( 'wp_head', 'print_emoji_detection_script', 7 );
+remove_action( 'admin_print_scripts', 'print_emoji_detection_script' );
+remove_action( 'wp_print_styles', 'print_emoji_styles' );
+remove_action( 'admin_print_styles', 'print_emoji_styles' );
+
+
+// ========================================
 // Grab custom functions
 // If you are going to create a utility method
 // go here and make it.
