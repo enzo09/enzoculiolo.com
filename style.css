@@ -1029,7 +1029,7 @@ label.error {
 
 /* contact form 7 */
 div.wpcf7-validation-errors {
-    border: 0px solid #9d0a0e; 
+    border: 0px solid #9d0a0e !important; 
     background: #9d0a0e;
     color: #fff;
 }
@@ -1040,7 +1040,7 @@ div.wpcf7-response-output {
 }
 
 span.wpcf7-not-valid-tip {
-    color: #9d0a0e;
+    color: #9d0a0e !important;
 }
 
 /* END MISCELANIOUS================================================== */
