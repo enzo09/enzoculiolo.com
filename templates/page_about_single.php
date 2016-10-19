@@ -370,81 +370,63 @@ the_post();
             <div class="container">
                 <div class="row">
                     <div class="col-md-12 text-center mb40">
-                        <h1>Our Services</h1>
-                        <h2 class="subTitle">Build your website now!</h2>
+                        <h1>Services</h1>
+                        <h2 class="subTitle" style="text-transform: normal;">Crafting brands from infancy through maturity!</h2>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-sm-3">
+                    <div class="col-sm-4">
                         <article class="boxFeatured">
                             <a href="#">
                                 <i class="icon-heart iconMedium"></i>
-                                <h2>Clean design</h2>
+                                <h2>Branding</h2>
                                 <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus</p>
                             </a>
                         </article>
                     </div>
-                    <div class="col-sm-3">
+                    <div class="col-sm-4">
                         <article style="opacity: 1;" class="boxFeatured">
                             <a href="#">
                                 <i class="icon-rocket iconMedium"></i>
-                                <h2>HTML5 &amp; CSS3</h2>
+                                <h2>Design</h2>
                                 <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus</p>
                             </a>
                         </article>
                     </div>
-                    <div class="col-sm-3">
+                    <div class="col-sm-4">
                         <article class="boxFeatured">
                             <a href="#">
                                 <i class="icon-desktop iconMedium"></i>
-                                <h2>Responsive design</h2>
+                                <h2>Digital</h2>
                                 <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus</p>
                             </a>
                         </article>
                     </div>
-                    <div class="col-sm-3">
+                    <div class="col-sm-4">
                         <article class="boxFeatured">
                             <a href="#">
                                 <i class="icon-search iconMedium"></i>
-                                <h2>Retina ready UI</h2>
+                                <h2>Print</h2>
                                 <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus</p>
                             </a>
                         </article>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-sm-3">
+                    <div class="col-sm-4">
                         <article style="opacity: 1;" class="boxFeatured">
                             <a href="#">
                                 <i class="icon-camera iconMedium"></i>
-                                <h2>OWl carousel</h2>
+                                <h2>Logos</h2>
                                 <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus</p>
                             </a>
                         </article>
                     </div>
-                    <div class="col-sm-3">
+                    <div class="col-sm-4">
                         <article style="opacity: 1;" class="boxFeatured">
                             <a href="#">
                                 <i class="icon-link-ext-alt iconMedium"></i>
-                                <h2>Magnific popup</h2>
-                                <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus</p>
-                            </a>
-                        </article>
-                    </div>
-                    <div class="col-sm-3">
-                        <article class="boxFeatured">
-                            <a href="#">
-                                <i class="icon-bold iconMedium"></i>
-                                <h2>Bootstrap3</h2>
-                                <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus</p>
-                            </a>
-                        </article>
-                    </div>
-                    <div class="col-sm-3">
-                        <article class="boxFeatured">
-                            <a href="#">
-                                <i class="icon-gift iconMedium"></i>
-                                <h2>Neko Framework</h2>
+                                <h2>Photography</h2>
                                 <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus</p>
                             </a>
                         </article>
