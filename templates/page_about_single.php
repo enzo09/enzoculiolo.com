@@ -457,7 +457,7 @@ the_post();
         <section id="contact" class="pb40 pt40 color4" style="border-top: 1px solid #ddd;">
             <div class="container">
                 <div class="row">
-                    <?php echo do_shortcode( '[contact-form-7 id="57" title="Contact form 1"]' ); ?>
+                    <?php echo do_shortcode( '[contact-form-7 id="57" title="Contact form 1" action="/wp-content/themes/enzoculiolo1.0/assets/js-plugin/neko-contact-ajax-plugin/php/form-handler.php"]' ); ?>
                     <!-- <div class="col-sm-4">
                         <h3>Let's Talk</h3>
                         <p>I'd love to talk about your project. You can fill out the form or contact me directly:</p>
