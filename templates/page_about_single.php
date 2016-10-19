@@ -457,6 +457,16 @@ the_post();
         <section id="contact" class="pb40 pt40 color4" style="border-top: 1px solid #ddd;">
             <div class="container">
                 <div class="row">
+                    <div class="col-sm-4" data-nekoanim="fadeInUp" data-nekodelay="300">
+                      <h3>Let's Talk</h3>
+                      <p>I'd love to talk about your project. You can fill out the form or contact me directly:</p>
+                      <address>
+                        <p>
+                          <i class="icon-phone"></i>&nbsp;850.687.0208
+                          <i class="icon-mail-alt"></i>&nbsp;<a href="mailto:enzo@enzoculiolo.com">enzo@enzoculiolo.com</a>
+                        </p>
+                      </address>
+                    </div>
                     <?php echo do_shortcode( '[contact-form-7 id="57" title="Contact form 1"]' ); ?>
                 </div>
             </div>
@@ -481,6 +491,7 @@ the_post();
                                 <h3>Contact</h3>
                                 <address>
                                     <p>
+                                        <i class="icon-phone"></i>&nbsp;850.687.0208
                                         <i class="icon-mail-alt"></i>&nbsp;<a href="mailto:enzo@enzoculiolo.com">enzo@enzoculiolo.com</a>
                                     </p>
                                 </address>

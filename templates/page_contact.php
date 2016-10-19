@@ -30,6 +30,16 @@ get_header();
     <section class="pb40 pt40">
         <div class="container">
             <div class="row">
+                <div class="col-sm-4" data-nekoanim="fadeInUp" data-nekodelay="300">
+                  <h3>Let's Talk</h3>
+                  <p>I'd love to talk about your project. You can fill out the form or contact me directly:</p>
+                  <address>
+                    <p>
+                      <i class="icon-phone"></i>&nbsp;850.687.0208
+                      <i class="icon-mail-alt"></i>&nbsp;<a href="mailto:enzo@enzoculiolo.com">enzo@enzoculiolo.com</a>
+                    </p>
+                  </address>
+                </div>
                 <?php the_content(); ?>
             </div>
         </div>
