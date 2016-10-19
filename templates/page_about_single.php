@@ -462,7 +462,7 @@ the_post();
                       <p>I'd love to talk about your project. You can fill out the form or contact me directly:</p>
                       <address>
                         <p>
-                          <i class="icon-phone"></i>&nbsp;850.687.0208
+                          <i class="icon-phone"></i>&nbsp;850.687.0208<br>
                           <i class="icon-mail-alt"></i>&nbsp;<a href="mailto:enzo@enzoculiolo.com">enzo@enzoculiolo.com</a>
                         </p>
                       </address>
