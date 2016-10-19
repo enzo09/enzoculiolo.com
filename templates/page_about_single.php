@@ -117,7 +117,7 @@ the_post();
                         <ul class="nav navbar-nav pull-right">
                             <li class="active"><a href="#homeFullScreen">Home</a></li>
                             <li><a href="#about">About Me</a></li>
-                            <li><a href="#portfolio">Portfolio</a></li>
+                            <li><a href="#work">Work</a></li>
                             <li><a href="#services">Services</a></li>
                             <li> <a href="#contact">Contact</a> </li>
                         </ul>
@@ -243,24 +243,18 @@ the_post();
         </section>
         <!-- / skills -->
 
-        <!-- portfolio -->
-        <section class="parallaxSection image-1" data-stellar-background-ratio="0.5" id="portfolio">
-            <div class="maskParent">
-                <div class="bgMask"></div>
-                <div class="paralaxText container pb30 pt40">
-                    <div class="row">
-                        <div class="col-md-12 text-center pt30 pb30">
-                            <h2><i class="icon-th iconMedium iconRounded"></i>
-                                <br /> Portfolio
-                                <br /> <small>
-                                Latest cool projects we've been working on
-                            </small> </h2>
-                        </div>
+        <!-- work -->
+        <section id="work" class="pb40 pt40" style="border-top: 1px solid #ddd;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center mb40">
+                        <h1>Work</h1>
+                        <h2 class="subTitle" style="text-transform: none;">Crafting distinct visual identities and consistent voice for your brand.</h2>
                     </div>
                 </div>
             </div>
         </section>
-        <!-- portfolio -->
+        <!-- work -->
 
         <section id="homePortfolio" class="imgHover clearfix portfolioMosaic mosaic5 mosaicMoreLink neko-hover-1 color0">
             <article>
