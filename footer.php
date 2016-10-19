@@ -17,8 +17,8 @@
                                 <h3>Contact</h3>
                                 <address>
                                     <p>
-                                        <i class="fa fa-phone" aria-hidden="true"></i>&nbsp;850.687.0208<br>
-                                        <i class="fa fa-envelope" aria-hidden="true"></i>&nbsp;<a href="mailto:enzo@enzoculiolo.com">enzo@enzoculiolo.com</a>
+                                        <i class="fa fa-phone" aria-hidden="true" style="margin-right:13px;"></i>850.687.0208<br>
+                                        <i class="fa fa-envelope" aria-hidden="true" style="margin-right:10px;"></i><a href="mailto:enzo@enzoculiolo.com">enzo@enzoculiolo.com</a>
                                     </p>
                                 </address>
                             </div>
