@@ -244,19 +244,7 @@ the_post();
         <!-- / skills -->
 
         <!-- work -->
-        <section id="work" class="pb40 pt40" style="border-top: 1px solid #ddd;">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12 text-center mb40">
-                        <h1>Work</h1>
-                        <h2 class="subTitle" style="text-transform: none;">Crafting distinct visual identities and consistent voice for your brand.</h2>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- work -->
-
-        <section id="homePortfolio" class="imgHover clearfix portfolioMosaic mosaic5 mosaicMoreLink neko-hover-1 color0">
+        <section id="work" class="imgHover clearfix portfolioMosaic mosaic5 mosaicMoreLink neko-hover-1 color0">
             <article>
                 <figure class="minimalBox"> <img alt="" src="/wp-content/themes/enzoculiolo1.0/assets/images/portfolio/vign6.jpg" class="img-responsive">
                     <figcaption>
@@ -357,7 +345,7 @@ the_post();
                 </figure>
             </article>
         </section>
-        <!-- works -->
+        <!-- / work -->
 
         <!-- services -->
         <section id="services" class="pb40 pt40">
