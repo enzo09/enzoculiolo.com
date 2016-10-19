@@ -1034,6 +1034,12 @@ div.wpcf7-validation-errors {
     color: #fff;
 }
 
+div.wpcf7-mail-sent-ok {
+    border: 0px solid #398f14 !important;
+    background: #398f14;
+    color: #fff;
+}
+
 div.wpcf7-response-output {
     margin: 0em !important; 
     padding: 2em 2em !important;
