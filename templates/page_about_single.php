@@ -491,7 +491,7 @@ the_post();
                                 <h3>Contact</h3>
                                 <address>
                                     <p>
-                                        <i class="icon-phone"></i>&nbsp;850.687.0208
+                                        <i class="icon-phone"></i>&nbsp;850.687.0208<br>
                                         <i class="icon-mail-alt"></i>&nbsp;<a href="mailto:enzo@enzoculiolo.com">enzo@enzoculiolo.com</a>
                                     </p>
                                 </address>

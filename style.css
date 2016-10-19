@@ -1,4 +1,4 @@
-/*
+
 Theme Name: Alabama - Modern Multipurpose Template
 Theme URI: https://wrapbootstrap.com/theme/alabama-modern-multipurpose-template-WB0FX91R6
 Author: LittleNeko
@@ -1027,6 +1027,22 @@ label.error {
 	color: #9D0A0E;
 }
 
+/* contact form 7 */
+div.wpcf7-validation-errors {
+    border: none; 
+    background: #9d0a0e;
+    color: #fff;
+}
+
+div.wpcf7-response-output {
+    margin: none; 
+    padding: 2em 2em;
+}
+
+span.wpcf7-not-valid-tip {
+    color: #9d0a0e;
+}
+
 /* END MISCELANIOUS================================================== */
 
 /* NEKO CSS FRAMEWORK================================================== */
@@ -1264,4 +1280,4 @@ label.error {
 .color4 .boxFeatured a:hover {
 	color:#fff;
 }
-/* END NEKO CSS FRAMEWORK================================================== */
+/* END NEKO CSS FRAMEWORK================================================== 
