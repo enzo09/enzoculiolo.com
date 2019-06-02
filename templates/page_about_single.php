@@ -142,8 +142,8 @@ the_post();
                             <p>
                                 Enzo is an award-winning Creative Director with over fifteen years of professional experience in the marketing insdustry.<br><br>
                                 Enzo is passionate about great design, hard work, and always strive for the best.<br><br>
-                                Enzo is currently working as a Director of Creative Marketing at <a href="http://www.actigraphcorp.com">ActiGraph, LLC</a>, in Pensacola, Florida. His areas of expertise includes planning, developing, and implementing ActiGraph's corporate brand vision and direction, marketing communication strategies, and leading the creative marketing team.<br><br>
-                                Enzo has worked as an Art Director for award-winning publication <a href="http://www.lifesabeachllc.com/">Life's A Beach, LLC</a>, in Destin, Florida. His areas of expertise included art direction for magazine, advertising, collaterals, and website design and development.
+                                Enzo is currently working as a Director of Creative Marketing at <a href="https://actigraphcorp.com">ActiGraph, LLC</a>, in Pensacola, Florida. His areas of expertise includes planning, developing, and implementing ActiGraph's corporate brand vision and direction, marketing communication strategies, and leading the creative marketing team.<br><br>
+                                Enzo has worked as an Art Director for award-winning publication <a href="https://lifesabeachllc.com">Life's A Beach, LLC</a>, in Destin, Florida. His areas of expertise included art direction for magazine, advertising, collaterals, and website design and development.
                             </p>
                         </div>
                     </div>
@@ -182,7 +182,7 @@ the_post();
                         <p>February 9, 1980, in Panama City, Panama.</p>
                         <br>
                         <h2>Education</h2>
-                        <p>Enzo moved to the United States in 1998 at the age of eighteen, after graduating high school. He attended and graduated college with two A.A.S. degrees in Graphics Design Technology and Multimedia from <a href="https://nwfsc.edu/">Northwest Florida State College</a>, former Okaloosa-Walton Community College in May of 2003. He also attended and graduated with a Bachelor's of Communication Arts in Advertising from <a href="https://uwf.edu/">University of West Florida</a> in December of 2012.</p>
+                        <p>Enzo moved to the United States in 1998 at the age of eighteen, after graduating high school. He attended and graduated college with two A.A.S. degrees in Graphics Design Technology and Multimedia from <a href="https://nwfsc.edu">Northwest Florida State College</a>, former Okaloosa-Walton Community College in May of 2003. He also attended and graduated with a Bachelor's of Communication Arts in Advertising from <a href="https://uwf.edu">University of West Florida</a> in December of 2012.</p>
                         <br>
                         <h2>Personal</h2>
                         <p>Enzo lives with his wife and own two condos in Destin, Florida and have a little chihuahua named Sophie. He enjoys playing and watching sports, especially soccer, college football, and basketball. His favorite pass times are watching movies and being an amateur astronmer.</p>
