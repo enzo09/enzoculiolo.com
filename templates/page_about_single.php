@@ -23,7 +23,7 @@ the_post();
 <!-- Basic Page Needs
     ================================================== -->
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge,chrome=1">
     <meta name="description" content="This is my personal website to showcase my work, provide services, and get inspired.">
     <meta name="keywords" content="Enzo Culiolo, Enzo, Culiolo">
     <meta name="author" content="Enzo A. Culiolo">
@@ -45,7 +45,7 @@ the_post();
     <!-- Bootstrap -->
     <link type="text/css" rel="stylesheet" href="/wp-content/themes/enzoculiolo1.0/assets/bootstrap/css/bootstrap.min.css">
     <!-- Web Font -->
-    <link href='http://fonts.googleapis.com/css?family=Roboto:100,300,400' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:100,300,400' rel='stylesheet' type='text/css'>
     <!-- Plugin CSS -->
     <link rel="stylesheet" type="text/css" href="/wp-content/themes/enzoculiolo1.0/assets/js-plugin/animation-framework/animate.css" />
     <link type="text/css" rel="stylesheet" href="/wp-content/themes/enzoculiolo1.0/assets/js-plugin/isotope/css/style.css">
@@ -67,7 +67,15 @@ the_post();
     <link type="text/css" rel="stylesheet" href="/wp-content/themes/enzoculiolo1.0/style.css">
     <!-- Scripts -->
     <script src="/wp-content/themes/enzoculiolo1.0/assets/js/modernizr-2.6.1.min.js"></script>
-    <script src='https://www.google.com/recaptcha/api.js'></script>
+    <script src="https://www.google.com/recaptcha/api.js?render=6Lenw6YUAAAAABBsLG3C12zSwlGrwOacp7EsXmhB"></script>
+    <script>
+        grecaptcha.ready(function () {
+            grecaptcha.execute('6Lenw6YUAAAAABBsLG3C12zSwlGrwOacp7EsXmhB', { action: 'contact' }).then(function (token) {
+                var recaptchaResponse = document.getElementById('recaptchaResponse');
+                recaptchaResponse.value = token;
+            });
+        });
+    </script>
     <!-- Old IE Browser Scripts -->
     <!--[if lt IE 9]>
         <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -84,12 +92,6 @@ the_post();
 </head>
 
 <body data-spy="scroll" data-target="#resMainMenu" data-offset="150" id="onePage" class="activateAppearAnimation headerTransparent">
-
-<!-- Preloader -->
-<div id="preloader">
-    <div id="status"> <img class="img-responsive" src="images/logo-big.png" alt="Little Neko Alabama Bootstrap 3 Parallax One Page" /> Loading... </div>
-</div>
-<!-- Preloader -->
 
 <!-- Primary Page Layout
     ================================================== -->
@@ -115,9 +117,7 @@ the_post();
                     <div class="collapse navbar-collapse" id="mainMenu">
                         <!-- Main navigation -->
                         <ul class="nav navbar-nav pull-right">
-                            <li class="active"><a href="#homeFullScreen">Home</a></li>
-                            <li><a href="#about">About</a></li>
-                            <li><a href="#work">Work</a></li>
+                            <li class="active"><a href="#about">About</a></li>
                             <li><a href="#services">Services</a></li>
                             <li> <a href="#contact">Contact</a> </li>
                         </ul>
@@ -129,44 +129,20 @@ the_post();
 
         <!-- ======================================= content ======================================= -->
 
-        <!-- slider -->
-        <section id="homeFullScreen">
-            <div class="maskParent">
-                <div class="bgMask"></div>
-                <div id="fullScreenSliderWrapper">
-                    <div class="blockCenter">
-                        <div id="logoBig"> <img class="img-responsive" src="images/logo-big.png" alt="Little Neko Alabama Bootstrap 3 Parallax One Page" /> </div>
-                        <div class="owl-carousel nekoDataOwl" data-neko_items="1" data-neko_singleitem="true" data-neko_paginationnumbers="true" data-neko_transitionstyle="backSlide">
-                            <div class="item">
-                                <h1>Hello, we are ALABAMA</h1>
-                            </div>
-                            <div class="item">
-                                <h1>We come in peace</h1>
-                            </div>
-                            <div class="item">
-                                <h1>Are you ready to come with us?</h1>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- slider -->
-
         <!-- about -->
         <section id="about">
             <section class="pt40 color4">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-4" data-nekoanim="fadeInRight" data-nekodelay="10">
+                        <div class="col-md-4" data-nekoanim="fadeInUp" data-nekodelay="10">
                             <img src="/wp-content/themes/enzoculiolo1.0/assets/images/theme-pics/me.png" alt="Enzo A. Culiolo" class="img-responsive">
                         </div>
-                        <div class="col-md-8">
+                        <div class="col-md-8" data-nekoanim="fadeInUp" data-nekodelay="50">
                             <h2>Enzo A. Culiolo</h2>
                             <p>
-                                Enzo is an award-winning Graphics Designer with twelve years of professional experience in marketing and advertising with expertise in creative and art direction, graphics design, UI and UX design on website and mobile applications, web design, and app design. Enzo is also a Web Developer with expertise in using Wordpress, Bootstrap, PHP, JavaScript, JQuery, and CSS framework.<br><br>
-                                Enzo is passionate about great design, hard work, and close attention to details.<br><br>
-                                Enzo is currently working as a Creative Manager at <a href="http://www.actigraphcorp.com">ActiGraph, LLC</a>, in Pensacola, Florida. His areas of expertise include creative direction, art direction, corporate branding, tradeshows, advertising, collaterals, app design, software design, and website design and development.<br><br>
+                                Enzo is an award-winning Creative Director with over fifteen years of professional experience in the marketing insdustry.<br><br>
+                                Enzo is passionate about great design, hard work, and always strive for the best.<br><br>
+                                Enzo is currently working as a Director of Creative Marketing at <a href="http://www.actigraphcorp.com">ActiGraph, LLC</a>, in Pensacola, Florida. His areas of expertise includes planning, developing, and implementing ActiGraph's corporate brand vision and direction, marketing communication strategies, and leading the creative marketing team.<br><br>
                                 Enzo has worked as an Art Director for award-winning publication <a href="http://www.lifesabeachllc.com/">Life's A Beach, LLC</a>, in Destin, Florida. His areas of expertise included art direction for magazine, advertising, collaterals, and website design and development.
                             </p>
                         </div>
@@ -180,7 +156,7 @@ the_post();
         <section id="skills" class="pt40 pb40">
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-4" data-nekoanim="fadeInUp" data-nekodelay="300">
+                    <div class="col-sm-6" data-nekoanim="fadeInUp" data-nekodelay="300">
                         <h2>What I can offer</h2>
                         <p>I offer both conventional and unconventional creative services to suit the needs of any client.</p>
                         <br>
@@ -195,48 +171,21 @@ the_post();
                             <i>“Advertising is the ability to sense, interpret... to put the very heart throbs of a business into type, paper and ink.”</i> - Leo Burnett
                         </p>
                     </div>
-                    <div class="col-sm-4" data-nekoanim="fadeInUp" data-nekodelay="400">
+                    <div class="col-sm-6" data-nekoanim="fadeInUp" data-nekodelay="400">
                         <h2>Accolades</h2>
                         <p>6 Gold ADDYs including “Best of Show” as a student and one Silver ADDY as a professional.</p>
                         <br>
                         <h2>Clubs and Memberships</h2>
-                        <p><a href="http://www.westerngate.toastmastersclubs.org">Western Gate</a> Toastmaster Club, in Pensacola, Florida.</p>
+                        <p><a href="https://westerngate.toastmastersclubs.org">Western Gate</a> Toastmaster Club, in Pensacola, Florida.</p>
                         <br>
                         <h2>Born</h2>
                         <p>February 9, 1980, in Panama City, Panama.</p>
                         <br>
                         <h2>Education</h2>
-                        <p>Enzo moved to the United States in 1998 at the age of eighteen, after graduating high school. He attended and graduated college with two A.A.S. degrees in Graphics Design Technology and Multimedia from <a href="http://www.nwfsc.edu/">Northwest Florida State College</a>, former Okaloosa-Walton Community College in May of 2003. He also attended and graduated with a Bachelor's of Communication Arts in Advertising from <a href="http://www.uwf.edu/">University of West Florida</a> in December of 2012.</p>
+                        <p>Enzo moved to the United States in 1998 at the age of eighteen, after graduating high school. He attended and graduated college with two A.A.S. degrees in Graphics Design Technology and Multimedia from <a href="https://nwfsc.edu/">Northwest Florida State College</a>, former Okaloosa-Walton Community College in May of 2003. He also attended and graduated with a Bachelor's of Communication Arts in Advertising from <a href="https://uwf.edu/">University of West Florida</a> in December of 2012.</p>
                         <br>
                         <h2>Personal</h2>
                         <p>Enzo lives with his wife and own two condos in Destin, Florida and have a little chihuahua named Sophie. He enjoys playing and watching sports, especially soccer, college football, and basketball. His favorite pass times are watching movies and being an amateur astronmer.</p>
-                    </div>
-                    <div class="col-sm-4" data-nekoanim="fadeInUp" data-nekodelay="200">
-                        <h2>Skills</h2>
-                        <h4>Creative Direction</h4>
-                        <div class="progress">
-                            <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;"> <span>100%</span> </div>
-                        </div>
-                        <h4>Art Direction</h4>
-                        <div class="progress">
-                            <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;"> <span>100%</span> </div>
-                        </div>
-                        <h4>Marketing</h4>
-                        <div class="progress">
-                            <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;"> <span>100%</span> </div>
-                        </div>
-                        <h4>Branding</h4>
-                        <div class="progress">
-                            <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;"> <span>100%</span> </div>
-                        </div>
-                        <h4>Web Development</h4>
-                        <div class="progress">
-                            <div class="progress-bar" role="progressbar" aria-valuenow="98" aria-valuemin="0" aria-valuemax="100" style="width:98%;"> <span>98%</span> </div>
-                        </div>
-                        <h4>User Interface/Experience</h4>
-                        <div class="progress">
-                            <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width: 95%;"> <span>95%</span> </div>
-                        </div>
                     </div>
                 </div>
             </div>
@@ -244,7 +193,7 @@ the_post();
         <!-- / skills -->
 
         <!-- work -->
-        <section id="work" class="imgHover clearfix portfolioMosaic mosaic5 mosaicMoreLink neko-hover-1 color0">
+        <!-- <section id="work" class="imgHover clearfix portfolioMosaic mosaic5 mosaicMoreLink neko-hover-1 color0">
             <article>
                 <figure class="minimalBox"> <img alt="" src="/wp-content/themes/enzoculiolo1.0/assets/images/portfolio/vign6.jpg" class="img-responsive">
                     <figcaption>
@@ -344,72 +293,58 @@ the_post();
                     </figcaption>
                 </figure>
             </article>
-        </section>
+        </section> -->
         <!-- / work -->
 
         <!-- services -->
-        <section id="services" class="pb40 pt40">
+        <section id="services" class="pb40 pt40" style="border-top: 1px solid #ddd;">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-12 text-center mb40">
+                    <div class="col-md-12 text-center mb40" data-nekoanim="fadeIn" data-nekodelay="300">
                         <h1>Services</h1>
                         <h2 class="subTitle" style="text-transform: none;">Crafting brands from infancy through maturity!</h2>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-sm-4">
+                    <div class="col-sm-4" data-nekoanim="fadeInUp" data-nekodelay="400">
                         <article class="boxFeatured">
                             <a href="#">
-                                <i class="icon-heart iconMedium"></i>
                                 <h2>Branding</h2>
-                                <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus</p>
+                                <p>
+                                    Branding Strategy & Development<br />
+                                    Logo Development<br />
+                                    Brand Style Guides<br />
+                                    Brand Messaging<br />
+                                    Rebrands / Relaunches
+                                </p>
                             </a>
                         </article>
                     </div>
-                    <div class="col-sm-4">
+                    <div class="col-sm-4" data-nekoanim="fadeInUp" data-nekodelay="500">
                         <article style="opacity: 1;" class="boxFeatured">
                             <a href="#">
-                                <i class="icon-rocket iconMedium"></i>
-                                <h2>Design</h2>
-                                <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus</p>
+                                <h2>Design + Digital</h2>
+                                <p>
+                                    Web & Digital Media<br />
+                                    Advertising<br />
+                                    Marketing Communications<br />
+                                    Print Collaterals<br />
+                                    Product Design
+                                </p>
                             </a>
                         </article>
                     </div>
-                    <div class="col-sm-4">
+                    <div class="col-sm-4" data-nekoanim="fadeInUp" data-nekodelay="600">
                         <article class="boxFeatured">
                             <a href="#">
-                                <i class="icon-desktop iconMedium"></i>
-                                <h2>Digital</h2>
-                                <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus</p>
-                            </a>
-                        </article>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-sm-4">
-                        <article class="boxFeatured">
-                            <a href="#">
-                                <i class="icon-search iconMedium"></i>
-                                <h2>Print</h2>
-                                <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus</p>
-                            </a>
-                        </article>
-                    </div>
-                    <div class="col-sm-4">
-                        <article style="opacity: 1;" class="boxFeatured">
-                            <a href="#">
-                                <i class="icon-camera iconMedium"></i>
-                                <h2>Logos</h2>
-                                <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus</p>
-                            </a>
-                        </article>
-                    </div>
-                    <div class="col-sm-4">
-                        <article style="opacity: 1;" class="boxFeatured">
-                            <a href="#">
-                                <i class="icon-link-ext-alt iconMedium"></i>
                                 <h2>Photography</h2>
-                                <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus</p>
+                                <p>
+                                    Lifestyle & Editorial<br />
+                                    Product<br />
+                                    Corporate<br />
+                                    Portrait<br />
+                                    Landscape
+                                </p>
                             </a>
                         </article>
                     </div>
@@ -427,11 +362,30 @@ the_post();
                       <p>I'd love to talk about your project. You can fill out the form or contact me directly:</p>
                       <address>
                         <p>
-                            <i class="fa fa-phone" aria-hidden="true" style="margin-right:13px;"></i>850.687.0208<br>
-                            <i class="fa fa-envelope" aria-hidden="true" style="margin-right:10px;"></i><a href="mailto:enzo@enzoculiolo.com">enzo@enzoculiolo.com</a>
+                            <i class="fa fa-envelope" aria-hidden="true" style="margin-right:10px;"></i><a href="mailto:contactme@enzoculiolo.com">contactme@enzoculiolo.com</a>
                         </p>
                       </address>
                     </div>
+                    <?php
+                        if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['recaptcha_response'])) {
+
+                            // Build POST request:
+                            $recaptcha_url = 'https://www.google.com/recaptcha/api/siteverify';
+                            $recaptcha_secret = '6Lenw6YUAAAAABBsLG3C12zSwlGrwOacp7EsXmhB';
+                            $recaptcha_response = $_POST['recaptcha_response'];
+
+                            // Make and decode POST request:
+                            $recaptcha = file_get_contents($recaptcha_url . '?secret=' . $recaptcha_secret . '&response=' . $recaptcha_response);
+                            $recaptcha = json_decode($recaptcha);
+
+                            // Take action based on the score returned:
+                            if ($recaptcha->score >= 0.5) {
+                                // Verified - send email
+                            } else {
+                                // Not verified - show form error
+                            }
+                        } 
+                    ?>
                     <?php echo do_shortcode( '[contact-form-7 id="57" title="Contact form 1"]' ); ?>
                 </div>
             </div>
@@ -456,8 +410,7 @@ the_post();
                                 <h3>Contact</h3>
                                 <address>
                                     <p>
-                                        <i class="fa fa-phone" aria-hidden="true" style="margin-right:13px;"></i>850.687.0208<br>
-                                        <i class="fa fa-envelope" aria-hidden="true" style="margin-right:10px;"></i><a href="mailto:enzo@enzoculiolo.com">enzo@enzoculiolo.com</a>
+                                        <i class="fa fa-envelope" aria-hidden="true" style="margin-right:10px;"></i><a href="mailto:contactme@enzoculiolo.com">contactme@enzoculiolo.com</a>
                                     </p>
                                 </address>
                             </div>
@@ -466,8 +419,8 @@ the_post();
                             <div class="footerWidget">
                                 <h3>Socialize</h3>
                                 <ul class="socialNetwork">
-                                    <li><a href="http://www.twitter.com/eculiolo09" class="tips" title="" data-original-title="Twitter"><i class="icon-twitter-bird iconRounded"></i></a></li>
-                                    <li><a href="https://www.linkedin.com/pub/enzo-culiolo/106/613/3b2" class="tips" title="" data-original-title="Linkedin"><i class="icon-linkedin-1 iconRounded"></i></a></li>
+                                    <li><a href="https://twitter.com/eculiolo09" class="tips" title="" data-original-title="Twitter"><i class="icon-twitter-bird iconRounded"></i></a></li>
+                                    <li><a href="https://linkedin.com/pub/enzo-culiolo/106/613/3b2" class="tips" title="" data-original-title="Linkedin"><i class="icon-linkedin-1 iconRounded"></i></a></li>
                                     <li><a href="https://github.com/enzo09" class="tips" title="" data-original-title="Github"><i class="icon-github iconRounded"></i></a></li>
                                 </ul>
                             </div>
